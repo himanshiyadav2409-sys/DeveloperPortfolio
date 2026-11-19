@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanshi Yadav | My Portfolio</title>
+
+    <style>
+        /* General Styling */
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #F7F0E6;
+            color: #49352B;
+            text-align: center;
+        }
+
+        /* Header */
+        header {
+            background-color: #795744;
+            color: white;
+            padding: 25px;
+        }
+
+        nav {
+            padding: 10px;
+            margin-top: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            background-color: #D8B8B8;
+            color: #49352B;
+        }
+
+        /* Sections */
+        section {
+            margin: 20px;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #795744;
+        }
+
+        /* Profile Picture */
+        .profile-picture {
+            width: 200px;
+            height: 200px;
+            border-radius: 50%;
+            border: 3px solid #D8B8B8;
+            object-fit: cover;
+        }
+
+        hr {
+            border: 1px solid #D8B8B8;
+        }
+
+        /* Skills Table */
+        table {
+            width: 50%;
+            margin: auto;
+            border-collapse: collapse;
+        }
+
+        th {
+            background-color: #795744;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid #795744;
+            padding: 10px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #EAD8D2;
+        }
+
+        tr:nth-child(odd) {
+            background-color: white;
+        }
+
+        /* Project Cards */
+        .project {
+            background-color: white;
+            width: 50%;
+            margin: 15px auto;
+            padding: 20px;
+            border: 1px solid #D8B8B8;
+            border-radius: 8px;
+        }
+
+        .project a, #contact a {
+            color: #795744;
+        }
+
+        /* Back to Top */
+        .back-to-top {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            background-color: #795744;
+            color: white;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #795744;
+            color: white;
+            padding: 10px;
+        }
+    </style>
+</head>
+
+<body id="top">
+
+    <!-- Header and Navigation -->
+    <header>
+        <h1>Himanshi Yadav</h1>
+        <p>B.Tech Computer Science and Engineering (AI/ML)</p>
+        <p>K.R. Mangalam University | Batch 2024–2028</p>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- About Section -->
+    <section id="about">
+        <h2>About Me</h2>
+
+        <img src="https://lh3.googleusercontent.com/d/1MkkK3-VqLUmOhBJvvoHm3XX9NmbYLn2I"
+             alt="Profile picture"
+             class="profile-picture">
+
+        <p>
+            I am currently pursuing my B.Tech in Computer Science
+            and Engineering with a specialization in Artificial
+            Intelligence and Machine Learning at K.R. Mangalam
+            University. I am a curious learner who enjoys exploring
+            technology, programming, and problem-solving. I have
+            worked with Python and SQL and am continuously learning
+            new concepts and building my skills through practical
+            projects. Beyond technology, I am a Formula 1 enthusiast
+            and enjoy following the sport in my free time. I am
+            excited to explore AI and technology further and grow
+            as a developer.
+        </p>
+    </section>
+
+    <hr>
+
+    <!-- Skills Section -->
+    <section id="skills">
+        <h2>My Skills</h2>
+
+        <table>
+            <tr>
+                <th>Skill</th>
+                <th>Level</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>Beginner</td>
+            </tr>
+            <tr>
+                <td>JavaScript</td>
+                <td>Learning</td>
+            </tr>
+            <tr>
+                <td>Python</td>
+                <td>Learning / Practising</td>
+            </tr>
+            <tr>
+                <td>SQL</td>
+                <td>Learning / Practising</td>
+            </tr>
+            <tr>
+                <td>Linux and Bash</td>
+                <td>Learning / Practising</td>
+            </tr>
+            <tr>
+                <td>Git and GitHub</td>
+                <td>Learning / Practising</td>
+            </tr>
+        </table>
+    </section>
+
+    <hr>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <h2>My Projects</h2>
+
+        <div class="project">
+            <h3>DeveloperPortfolio</h3>
+            <p>
+                My personal developer portfolio showcasing my
+                technical skills, Linux commands, Bash scripting,
+                GitHub workflows, REST API interaction and
+                semester-wise learning roadmap.
+            </p>
+
+            <a href="https://github.com/himanshiyadav2409-sys/developer-portfolio"
+               target="_blank">
+                View DeveloperPortfolio on GitHub
+            </a>
+        </div>
+
+        <div class="project">
+            <h3>Personal Diary Management System</h3>
+            <p>
+                A Python-based diary management system integrated
+                with SQL connectivity to store and manage personal
+                diary entries.
+            </p>
+
+            <a href="https://github.com/himanshiyadav2409-sys/Personal-Diary-Management-System"
+               target="_blank">
+                View Project on GitHub
+            </a>
+        </div>
+    </section>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+
+        <p>
+            GitHub:
+            <a href="https://github.com/himanshiyadav2409-sys"
+               target="_blank">
+                Visit My GitHub
+            </a>
+        </p>
+
+        <p>
+            LinkedIn:
+            <a href="https://www.linkedin.com/in/himanshi-yadav-245285229/"
+               target="_blank">
+                Visit My LinkedIn
+            </a>
+        </p>
+    </section>
+
+    <a href="#top" class="back-to-top">↑ Back to Top</a>
+
+    <footer>
+        <p>© 2026 Himanshi Yadav | Personal Portfolio</p>
+    </footer>
+
+</body>
+</html>
