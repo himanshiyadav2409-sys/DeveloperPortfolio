@@ -1,0 +1,27 @@
+========================================
+       SYSTEM INFORMATION REPORT
+========================================
+Name: Himanshi Yadav
+Roll Number: 2601730035
+Date: Thu Nov 19 06:32:23 UTC 2026
+
+CPU INFORMATION
+----------------------------------------
+CPU Model:                               Intel(R) Core(TM) i3-1005G1 CPU @ 1.20GHz
+Number of Cores: 2
+
+MEMORY INFORMATION
+----------------------------------------
+Total Memory: 1.8Gi
+Used Memory: 390Mi
+
+TOP 3 PROCESSES BY CPU USAGE
+----------------------------------------
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+himansh+     610  6.6  0.2   6268  3772 pts/0    S+   06:32   0:00 -bash
+root           1  0.4  0.8  24132 15404 ?        Ss   06:27   0:01 /sbin/init
+root         104  0.1  0.6  34648 12032 ?        Ss   06:27   0:00 /usr/lib/systemd/systemd-udevd
+
+========================================
+Report generated successfully.
+========================================
