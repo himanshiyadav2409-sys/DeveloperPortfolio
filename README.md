@@ -1,6 +1,22 @@
 # Himanshi Yadav — Developer Portfolio
 
-> B.Tech CSE Student | K.R. Mangalam University, Gurugram | Batch 2024-28
+> B.Tech CSE (AI/ML) | K.R. Mangalam University, Gurugram | Batch 2024-28
+
+---
+
+## About Me
+
+I am a B.Tech Computer Science and Engineering student specialising in Artificial Intelligence and Machine Learning. I am currently developing my skills in Python, Linux, Bash, Git, and other technologies through coursework and practical projects.
+
+I enjoy learning new technologies and applying my knowledge to solve problems.
+
+---
+
+## Current Skills
+
+- Python [█████░░░░░] 50%
+- Linux / Bash [████░░░░░░] 40%
+- Git / GitHub [█████░░░░░] 50%
 
 ---
 
@@ -9,17 +25,18 @@
 | Repository | Description | Tech Stack | Status |
 |------------|-------------|------------|--------|
 | [cse103-lab-LAB3](https://github.com/himanshiyadav2409-sys/cse103-lab-LAB3) | CSE103 lab — Git, APIs, Shell scripting | Git, Python, Bash | Active |
-| [developer-portfolio](https://github.com/himanshiyadav2409-sys/developer-portfolio) | This portfolio index | Markdown | Active |
+| [developer-portfolio](https://github.com/himanshiyadav2409-sys/developer-portfolio) | Personal developer portfolio and assignment work | HTML, Markdown, Bash | Active |
 
 ---
 
-## Current Skills
+## Assignment Sections
 
-Python [█████░░░░░] 50%
-
-Linux / Bash [████░░░░░░] 40%
-
-Git / GitHub [█████░░░░░] 50%
+| Section | Description |
+|---------|-------------|
+| Linux | Linux commands and system information |
+| ShellScripts | Bash scripts for system information and file backup |
+| API | GitHub repository and REST API interaction using curl and jq |
+| Portfolio | Personal portfolio website, resume, and learning roadmap |
 
 ---
 
@@ -30,3 +47,12 @@ See [LEARNING_ROADMAP.md](./LEARNING_ROADMAP.md) for my full 6-semester plan.
 ## Progress Tracker
 
 See [PROGRESS.md](./PROGRESS.md) for coding platform progress.
+
+---
+
+## Professional Profiles
+
+- **GitHub:** https://github.com/himanshiyadav2409-sys
+- **LinkedIn:** https://www.linkedin.com/in/himanshi-yadav-245285229/
+
+---
